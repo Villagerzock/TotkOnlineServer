@@ -1,7 +1,23 @@
 package net.villagerzock.math;
 
 public class Vector3 {
-    private float x;
-    private float y;
-    private float z;
+    public float x;
+    public float y;
+    public float z;
+
+    public Vector3(){
+        x = 0;
+        y = 0;
+        z = 0;
+    }
+    public Vector3(float all){
+        x = all;
+        y = all;
+        z = all;
+    }
+    public Vector3(float x, float y, float z){
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
 }
